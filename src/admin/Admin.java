@@ -1,20 +1,20 @@
-package customer;
+package admin;
 
-public class Customer {
+public class Admin {
     private String name, password, email;
 
-    public Customer(String name, String password, String email) {
+    public Admin(String name, String password, String email) {
         this.name = name;
         this.password = password;
         this.email = email;
     }
 
-    public Customer(String email, String password) {
+    public Admin(String email, String password) {
         this.email = email;
         this.password = password;
     }
 
-    //get and set the name
+    //get and set name
     public String getName() {
         return this.name;
     }
@@ -23,7 +23,7 @@ public class Customer {
         this.name = name;
     }
 
-    //get and set the password
+    //get and set password
     public String getPassword() {
         return this.password;
     }
@@ -32,7 +32,7 @@ public class Customer {
         this.password = password;
     }
 
-    //get and set the email
+    //get and set email
     public String getEmail() {
         return this.email;
     }
